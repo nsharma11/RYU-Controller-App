@@ -6,7 +6,19 @@ An ARP controller for detecting and correcting ```ARP``` poisoning attacks in an
 sudo pip install ryu
 ```
 
+- Resolved dependecies issues by
+```sh
+sudo pip install --upgrade six
+sudo pip install --upgrade netaddr
+```
+
 # Changelog
+### 2018-03-06
+
+- Fixed dependencies issues for RYU programs to execute on the Debian
+based issues, error log can be traced in ```TraceLog.md```
+
+
 ### 2018-02-28
 
 - Added ```push``` tool for easily upload modification02
