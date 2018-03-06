@@ -11,10 +11,16 @@ sudo pip install ryu
 sudo pip install --upgrade six
 sudo pip install --upgrade netaddr
 ```
+- Install ARP Poison module
+```sh
+sudo apt-get install python-scapy
+sudo pip install netifaces
+```
 
 # Changelog
 ### 2018-03-06
 
+- Installed ARP Poisn module
 - Fixed dependencies issues for RYU programs to execute on the Debian
 based issues, error log can be traced in ```TraceLog.md```
 
