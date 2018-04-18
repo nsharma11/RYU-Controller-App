@@ -18,7 +18,7 @@ sudo pip install netifaces
 ```
 
 # Changelog
-###2018-04-18
+### 2018-04-18
 - Scripts to lauch the controller and simulator
 
 ### 2018-03-06
